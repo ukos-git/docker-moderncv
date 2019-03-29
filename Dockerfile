@@ -4,6 +4,7 @@ RUN DEBIAN_FRONTEND=noninteractive \
 	apt-get update && \
 	apt-get install --assume-yes --no-install-recommends \
 		biber \
+		lmodern \
 		make \
 		texlive-bibtex-extra \
 		texlive-fonts-extra \
